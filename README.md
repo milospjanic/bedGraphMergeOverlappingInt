@@ -1,6 +1,6 @@
 # bedGraphMergeOverlappingInt
 
-##Usage
+#Usage
 
 <pre>
 mpjanic@valkyr:~$ cat test.wg
@@ -46,7 +46,7 @@ chrY	9	10	6
 
 ##Code
 
-```
+'''
 #!/bin/bash
 
 ###bedGraphMergeOverlappingInt
@@ -82,4 +82,4 @@ done
 #sort merged file
 
 sort -k1,1 -k2,2n $BEDGRAPH.merge > $BEDGRAPH.merge.sort
-```
+'''
