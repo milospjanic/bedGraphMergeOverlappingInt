@@ -1,6 +1,6 @@
 # bedGraphMergeOverlappingInt
 
-#Usage
+##Usage
 
 <pre>
 mpjanic@valkyr:~$ cat test.wg
@@ -42,6 +42,9 @@ chrY	8	9	6
 chrY	9	10	6
 
 </pre>
+
+
+##Code
 
 ```
 #!/bin/bash
