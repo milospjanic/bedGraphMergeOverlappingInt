@@ -1,5 +1,48 @@
 # bedGraphMergeOverlappingInt
 
+#Usage
+
+<pre>
+mpjanic@valkyr:~$ cat test.wg
+chr1	1	6	2
+chr1	2	7	3
+chr1	3	8	6
+chr12	1	7	3
+chr12	2	8	4
+chr12	3	9	8
+chrY	1	8	2
+chrY	2	9	3
+chrY	3	10	6
+
+
+
+mpjanic@valkyr:~$ chmod 755 ./bedGraphMergeOverlappingInt
+mpjanic@valkyr:~$ ./bedGraphMergeOverlappingInt test.wig 
+Proccesing file:
+/home/mpjanic/test.wg
+
+mpjanic@valkyr:~$ cat test.wg.merge.sort 
+chr1	1	2	2
+chr1	2	3	3
+chr1	3	6	6
+chr1	6	7	6
+chr1	7	8	6
+chr12	1	2	3
+chr12	2	3	4
+chr12	3	6	8
+chr12	6	7	8
+chr12	7	8	8
+chr12	8	9	8
+chrY	1	2	2
+chrY	2	3	3
+chrY	3	6	6
+chrY	6	7	6
+chrY	7	8	6
+chrY	8	9	6
+chrY	9	10	6
+
+</pre>
+
 ```
 #!/bin/bash
 
