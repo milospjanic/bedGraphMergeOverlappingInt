@@ -46,7 +46,7 @@ chrY	9	10	6
 
 # Code
 
-```{bash}
+```bash
 #!/bin/bash
 
 ###bedGraphMergeOverlappingInt
