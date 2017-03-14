@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 for chr in {1..22}
 
