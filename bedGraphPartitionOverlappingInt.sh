@@ -1,6 +1,6 @@
 #!/bin/bash
 
-###bedGraphMergeOverlappingInt
+###bedGraphPartitionOverlappingInt
 
 BEDGRAPH=$(pwd)/$1
 echo Proccesing file:
