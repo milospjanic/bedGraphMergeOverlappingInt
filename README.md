@@ -1,4 +1,4 @@
-# bedGraphMergeOverlappingInt
+# bedGraphPartitionOverlappingInt
 
 # Usage
 
@@ -16,8 +16,8 @@ chrY	3	10	6
 
 
 
-mpjanic@valkyr:~$ chmod 755 ./bedGraphMergeOverlappingInt
-mpjanic@valkyr:~$ ./bedGraphMergeOverlappingInt test.wig 
+mpjanic@valkyr:~$ chmod 755 ./bedGraphPartitionOverlappingInt
+mpjanic@valkyr:~$ ./bedGraphPartitionOverlappingInt test.wig 
 Proccesing file:
 /home/mpjanic/test.wg
 
@@ -49,7 +49,7 @@ chrY	9	10	6
 ```bash
 #!/bin/bash
 
-###bedGraphMergeOverlappingInt
+###bedGraphPartitionOverlappingInt
 
 BEDGRAPH=$(pwd)/$1
 echo Proccesing file:
